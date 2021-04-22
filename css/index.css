@@ -15,16 +15,6 @@ font-family: 'Work Sans', sans-serif;
   box-sizing: border-box;
 }
 
-@font-face {
-  src: url(fonts/Engebrechtre.ttf);
-  font-family: Engebrechtre;
-}
-
-@font-face {
-  src: url(fonts/KeepCalm.ttf);
-  font-family: KeepCalm;
-}
-
 body {
   line-height: 1.6;
   height: 100vh;
