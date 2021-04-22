@@ -126,7 +126,7 @@ nav{
 /*Title Text / TypeWriting */
 
 .title_text{
-  margin-top: 22%;
+  margin-top: 18%;
   margin-left: 10%;
 }
 
@@ -522,6 +522,7 @@ font-family: 'Work Sans', sans-serif;
   }
   .nav-links li{
     opacity: 0;
+    margin-bottom: 0.5rem;
   }
   .burger {
     display: block;
