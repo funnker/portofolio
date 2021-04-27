@@ -173,7 +173,7 @@ h2 {
   z-index: 0;
   /* display: flex; */
   position: absolute;
-  right: 15%;
+  right: 12%;
   top: 20%;
   transform: rotate(-30deg);
   color: #ececec;
@@ -326,8 +326,8 @@ section p{
 }
 
 .text-container img {
-  height: 400px;
-  width: 450px;
+  height: calc(30vw - 5em);
+  width: calc(40vw - 5em);
   border-radius: 10%;
   position: absolute;
   right: 10%;
