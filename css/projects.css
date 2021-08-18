@@ -108,6 +108,70 @@ nav{
     transform: scale(1.1, 1.1);
   }
 
+  /* FOOTER */
+
+  #contact {
+    padding: 0.5rem 0;
+    background-color:#121d35;
+  }
+  
+  .footer-distributed{
+    width: 100%;
+    background-color: #121d35;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+  
+  .footer-email {
+    padding: 0 12rem;
+    color: rgb(230, 230, 230);
+  }
+  
+  /* .footer-social {
+    color: rgb(230, 230, 230);
+    padding: 0 12rem;
+    justify-content: space-between;
+  } */
+  
+  .list-inline-item a{
+    padding: 0 25px;
+    font-size: 25px;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    transition:         0.1s ease-in;
+    -o-transition:      0.1s ease-in;
+    -ms-transition:     0.1s ease-in;
+    -moz-transition:    0.1s ease-in;
+    -webkit-transition: 0.1s ease-in;
+  }
+  
+  .list-inline-item a:hover {
+    color: #F2BA38;
+  }
+  /* .footer-social a{
+    padding: 0 25px;
+    font-size: 25px;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    transition:         0.1s ease-in;
+    -o-transition:      0.1s ease-in;
+    -ms-transition:     0.1s ease-in;
+    -moz-transition:    0.1s ease-in;
+    -webkit-transition: 0.1s ease-in;
+  } */
+  
+  .footer-social a:hover {
+    color: #F2BA38;
+  }
+  
+  hr {
+    margin: auto;
+    width: 60%;
+    background-color: #121d35;
+  }
+
 @media screen and (max-width: 768px) {
     body{
         overflow-x: hidden;
@@ -131,6 +195,31 @@ nav{
     .burger {
         display: block;
     }
+
+    .footer-distributed .footer-email,
+    .footer-distributed .footer-social,
+    .footer-distributed .footer-social a {
+      display: inline;
+      width: 100%; 
+      text-align: center;
+    }
+  
+    .footer-social a {
+      text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-email{
+        display: block;
+        text-align: center;
+      }
+    
+      .footer-social {
+        display: block;
+        text-align: center;
+        position: static;
+      }
 }
 
 .nav-active{
