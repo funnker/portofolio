@@ -204,7 +204,6 @@ section p{
 
 #home{
   height: 100%;
-  position: aboslute;
   top: 0;
   left: 0;
   width: 100%;
@@ -348,6 +347,7 @@ section p{
 .about_me-desc-container {
   padding: 10px;
   width: 90%;
+  text-align: justify;
 }
 
 .about_me-desc {
@@ -371,30 +371,18 @@ section p{
   padding: 0.5rem 0;
 }
 
-.footer-distributed .footer-email,
-.footer-distributed .footer-social {
-  display: inline-block;
-}
-
-/* .footer-content {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding: 1rem;
-} */
-
 .footer-email {
   padding: 0 12rem;
   color: rgb(230, 230, 230);
 }
 
-.footer-social {
+/* .footer-social {
   color: rgb(230, 230, 230);
   padding: 0 12rem;
   justify-content: space-between;
-}
+} */
 
-.footer-social a{
+.list-inline-item a{
   padding: 0 25px;
   font-size: 25px;
   color: rgb(230, 230, 230);
@@ -405,6 +393,21 @@ section p{
   -moz-transition:    0.1s ease-in;
   -webkit-transition: 0.1s ease-in;
 }
+
+.list-inline-item a:hover {
+  color: #F2BA38;
+}
+/* .footer-social a{
+  padding: 0 25px;
+  font-size: 25px;
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  transition:         0.1s ease-in;
+  -o-transition:      0.1s ease-in;
+  -ms-transition:     0.1s ease-in;
+  -moz-transition:    0.1s ease-in;
+  -webkit-transition: 0.1s ease-in;
+} */
 
 .footer-social a:hover {
   color: #F2BA38;
@@ -451,7 +454,7 @@ font-family: 'Work Sans', sans-serif;
   }
 
   .title_text {
-    width: 80%;
+    width: 100%;
     margin-top: 30%;
     margin-left: 50%;
     transform: translateX(-50%);

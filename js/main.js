@@ -28,7 +28,7 @@ navSlide();
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = [" Cristi", " a developer", " a student"];
+const textArray = [" Cristian", " a developer", " a student"];
 const typingDelay = 200; // Typing Delay
 const erasingDelay = 100; // Erasing Delay
 const newTextDelay = 2000; // Delay between current and next text
